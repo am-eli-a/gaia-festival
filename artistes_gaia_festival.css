@@ -53,3 +53,17 @@ body {
     text-align: center;
     color: #000;
 }
+
+.affiche{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.affiche img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #074A08;
+}

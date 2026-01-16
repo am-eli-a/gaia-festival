@@ -54,3 +54,17 @@ body {
     padding: 10px;
     margin: 10px;
 }
+
+.transport-affiche img {
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.transport-affiche {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
