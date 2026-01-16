@@ -1,0 +1,214 @@
+.hero{
+    background-image: url("images/images/gaia_hero_banniere.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+main {
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.artistes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloc-artistes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theodora, .damso, .solalune, .orelsan, .adele-castillon, .tyler-the-creator {
+    width: 75%;
+    height: 75%;
+}
+
+.tarifs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.tarifs-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarifs-bloc p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pass-1, .pass-2, .pass-3, .pass-psh-pmr, .pass-camping {
+    width: 105%;
+    height: 70%;
+    max-width: 130px;
+    max-height: 110px;
+    text-align: center;
+}
+
+.pass-vip{
+    width: 105%;
+    height: 70%;
+    max-width: 130px;
+    max-height: 110px;
+    text-align: center;
+}
+
+.merch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.merch-container p {
+    flex: 1;
+    max-width: 65%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.merch-container img {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.faq-toggle{
+    display: none;
+}
+
+.faq-question {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #38761D;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #37861D;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.4s ease;
+}
+
+.faq-question:hover {
+    background-color: #38761D;
+    color: white;
+}
+
+.faq-rep{
+    font-size: 16px;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease;
+}
+
+.faq-toggle:checked + .faq-question + .faq-rep {
+    max-height: 200px;
+    margin-top: 10px;
+}
+
+.infos-container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.venir-fest, .camping {
+    text-align: justify;
+}
+
+.logo-plan{
+    max-width: 80%;
+    max-height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan{
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.plan-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan-icones{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-icone-plan {
+    display: flex;
+    align-items: center;
+    max-width: 15%;
+    max-height: 2%;
+}
+
+.bloc-icone-plan img{
+    margin-right: 30px;
+    max-width: 150%;
+    max-height: 150%;
+}
+
+.APropos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.APropos-titre-txt {
+    flex: 1;
+    max-width: 55%;
+}
+
+.APropos-titre-txt > p {
+    text-align: justify;
+    padding-right: 5%;
+    line-height: 1.6;
+}
+
+.Createurs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Createurs img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

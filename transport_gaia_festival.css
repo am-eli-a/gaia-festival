@@ -1,0 +1,56 @@
+body {
+    background-color: #B8F5AD;
+}
+
+.transport-bloc {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px #00000026;
+    border-radius: 5px;
+}
+
+.transport-container{
+    flex: 1;
+    border-radius: 5px;
+    background-color: #37861D;
+    padding: 20px 15px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transport-container h3{
+    margin-left: -5px;
+}
+
+.transport-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.transport-container img {
+    max-width: 80%;
+}
+
+.transport-container .transport-trains .transport-velo {
+    max-width: 50%;
+}
+
+.transport-bloc h3{
+    text-align: center;
+    color: white;
+}
+
+.transport-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}

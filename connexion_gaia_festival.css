@@ -1,0 +1,95 @@
+body {
+    background-image: url("images/images/gaia_scene.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    margin-right: 8%;
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px #00000026;
+    border-radius: 5px;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #171A17;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #171A17;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #171A17;
+}
+
+.id {
+    color: #37861D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.id:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: #37861D;
+    margin-bottom: 10px;
+}
+
+.soustitre {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #555;
+    font-weight: normal;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-link {
+    margin-top: 20px;
+}

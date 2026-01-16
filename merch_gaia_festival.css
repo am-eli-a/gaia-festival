@@ -1,0 +1,162 @@
+:root {
+    --bg-green: #e2f4e0;
+    --card-green: #76d370;
+    --sidebar-gray: #e0e0e0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-green);
+    margin: 0;
+    padding: 20px;
+}
+
+.main-header h1 {
+    margin-left: 10px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.intro-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar {
+    background-color: var(--sidebar-gray);
+    padding: 20px;
+    width: 220px;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+.sidebar ul {
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.sidebar .simple-list {
+    padding-left: 0;
+}
+.sidebar li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.image-container {
+    background-color: var(--card-green);
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.color-options {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    gap: 2px;
+}
+
+.dot {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #00000026;
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+}
+.pink {
+    background-color: #f7a8c4;
+}
+.green {
+    background-color: #b1ffb1;
+}
+.black {
+    background-color: black;
+}
+
+.product-name h3 {
+    margin: 0;
+    font-weight: bold;
+    color: #1a4a1a;
+}
+
+.product-card p {
+    margin: 0;
+    color: #333;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    gap: 10px;
+}
+
+.product-info button {
+    max-width: 25%;
+    border: none;
+}
+
+.add-to-cart {
+    background: transparent;
+    border: 2px solid #333;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart:hover {
+    background-color: var(--card-green);
+    border-color: var(--card-green);
+}
+
+.add-to-cart img {
+    max-width: 50px;
+    height: auto;
+}
+
+.intro-box, .main-header, main{
+    margin-left: 8%;
+    margin-right: 8%;
+}

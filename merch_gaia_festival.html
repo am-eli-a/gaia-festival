@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaïa Festival</title>
+    <link rel="stylesheet" href="merch_gaia_festival.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="icon" href="./images/GF-rbg.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="navigation">
+    <div class="logo">
+        <a href="index.html"><img src="images/GF-rbg.png" alt="Logo Gaia" class="logo_Gaia"></a>
+    </div>
+    <div class="nav-liens">
+        <nav>
+            <ul>
+                <li><a href="tarifs_gaia_festival.html">Tarifs</a></li>
+                <li><a href="artistes_gaia_festival.html">Artistes</a></li>
+                <li><a href="#" class="active">Merch</a></li>
+                <li><a href="transport_gaia_festival.html">Transport</a></li>
+                <li><a href="hebergement_gaia_festival.html">Hébergement</a></li>
+                <li><a href="apropos_gaia_festival.html">A propos</a></li>
+                <li><a href="contact_gaia_festival.html">Contact</a></li>
+                <li><a href="id_gaia_festival.html"><img src="images/id_user-rbg.png" alt="s'identifier" class="id_user"></a></li>
+                <li><a href="Homepage_gaia_festival_ANGLAIS.html"><img src="images/anglais-rbg.png" alt="Anglais Logo" class="logo-anglais"></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<header class="main-header">
+    <h1>Notre merch</h1>
+    <div class="intro-box">
+        <p>
+            Le merch du Gaïa Festival est 100 % éco-responsable, conçu dans le
+            respect de l'environnement et des valeurs qui nous rassemblent. Tous
+            nos produits sont fabriqués en France, avec des matériaux durables et
+            une production éthique. Porter Gaïa, c'est soutenir une démarche
+            locale, responsable et engagée.
+        </p>
+    </div>
+</header>
+
+<main class="container">
+    <aside class="sidebar">
+        <h3 onclick="toggleMenu()" style="cursor: pointer">
+            Vêtements <span id="arrow">▼</span>
+        </h3>
+        <ul id="clothing-list">
+            <li>T-shirts</li>
+            <li>Hoodie</li>
+            <li>Casquette</li>
+            <li>Tote bag</li>
+        </ul>
+        <ul class="simple-list">
+            <li>Poster</li>
+            <li>Gourde</li>
+            <li>Mug</li>
+            <li>Porte clé</li>
+        </ul>
+    </aside>
+
+
+
+    <section class="product-grid">
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/tshirtblanc.png" alt="Tshirt" id="img-tshirt" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-tshirt', './images/merch/tshirtblanc.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-tshirt', './images/merch/tshirtrose.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-tshirt', './images/merch/tshirtvert.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-tshirt', './images/merch/tshirtnoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Tshirt</h3>
+                    <p>prix : 25,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/hoodieblanc.png" alt="Hoodie" id="img-hoodie" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-hoodie', './images/merch/hoodieblanc.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-hoodie', './images/merch/hoodierose.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-hoodie', './images/merch/hoodievert.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-hoodie', './images/merch/hoodienoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Hoodie</h3>
+                    <p>prix : 49,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/totebagblanc.png" alt="Tote bag" id="img-tote" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-tote', './images/merch/totebagblanc.png')"
+              ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-tote', './images/merch/totebagvert.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-tote', './images/merch/totebagnoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Tote bag</h3>
+                    <p>prix : 12,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/gourdeblanc.png" alt="Gourde" id="img-gourde" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-gourde', './images/merch/gourdeblanc.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-gourde', './images/merch/gourderose.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-gourde', './images/merch/gourdeverte.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-gourde', './images/merch/gourdenoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Gourde</h3>
+                    <p>prix : 12,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/mugblanc.png" alt="Mug" id="img-mug" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-mug', './images/merch/mugblanc.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-mug', './images/merch/mugrose.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-mug', './images/merch/mugvert.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-mug', './images/merch/mugnoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Mug</h3>
+                    <p>prix : 17,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img
+                        src="./images/merch/casquetteblanche.png"
+                        alt="Casquette"
+                        id="img-casquette"
+                />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-casquette', './images/merch/casquetteblanche.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-casquette', './images/merch/casquetterose.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-casquette', './images/merch/casquetteverte.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-casquette', './images/merch/casquettenoir.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Casquette</h3>
+                    <p>prix : 14,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/Portecléblancedit.png" alt="Porte clé" id="img-key" />
+                <div class="color-options">
+              <span
+                      class="dot white"
+                      onclick="changeColor('img-key', './images/merch/Portecléblancedit.png')"
+              ></span>
+                    <span
+                            class="dot pink"
+                            onclick="changeColor('img-key', './images/merch/Portecléroseedit.png')"
+                    ></span>
+                    <span
+                            class="dot green"
+                            onclick="changeColor('img-key', './images/merch/Porteclévertedit.png')"
+                    ></span>
+                    <span
+                            class="dot black"
+                            onclick="changeColor('img-key', './images/merch/Porteclénoiredit.png')"
+                    ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>Porte clé</h3>
+                    <p>prix : 6,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="image-container">
+                <img src="./images/merch/affiche.png" alt="Affiche" id="img-affiche" />
+                <div class="color-options">
+              <span
+                      class="dot green"
+                      onclick="changeColor('img-affiche', './images/merch/affiche.png')"
+              ></span>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>poster</h3>
+                    <p>prix : 11,99€</p>
+                </div>
+                <button class="add-to-cart">
+                    <img src="./images/merch/panier-rbg.png" alt="Ajouter au panier">
+                </button>
+            </div>
+        </article>
+    </section>
+</main>
+
+<script>
+    function changeColor(imgId, newSrc) {
+        document.getElementById(imgId).src = newSrc;
+    }
+
+    function toggleMenu() {
+        const list = document.getElementById("clothing-list");
+        const arrow = document.getElementById("arrow");
+        if (list.style.display === "none") {
+            list.style.display = "block";
+            arrow.innerHTML = "▼";
+        } else {
+            list.style.display = "none";
+            arrow.innerHTML = "▶";
+        }
+    }
+</script>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about_contact">
+            <div class="footer-about">
+                <h4>Gaïa Festival</h4>
+                <p>3 jours de musique Pop, Rap et Rock.<br>
+                    Le premier festival avec une Logistique Zéro Carbone certifiée.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p> Email : contact@gaia-festival.com</p>
+                <p> Tel : 07 83 67 48 39 </p>
+                <p> Adresse : 35 rue Rosa Parks</p>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <h4>Liens rapides</h4>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="tarifs_gaia_festival.html">Tarifs</a></li>
+                <li><a href="artistes_gaia_festival.html">Artistes</a></li>
+                <li><a href="#" class="active">Merch</a></li>
+                <li><a href="transport_gaia_festival.html">Transport</a></li>
+                <li><a href="hebergement_gaia_festival.html">Hébergement</a></li>
+                <li><a href="apropos_gaia_festival.html">A propos</a></li>
+                <li><a href="contact_gaia_festival.html">Contact</a></li>
+                <li><a href="id_gaia_festival.html">Mon compte</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h4>Suivez-nous !</h4>
+            <div class="social-icons">
+                <div class="bloc-reseaux">
+                    <img src="images/logo_reseaux/insta-rbg.png" alt="Instagram">
+                    <a href="#"><p>Instagram</p></a>
+                </div>
+                <div class="bloc-reseaux">
+                    <img src="images/logo_reseaux/x-rbg.png" alt="X">
+                    <a href="#"><p>X</p></a>
+                </div>
+                <div class="bloc-reseaux">
+                    <img src="images/logo_reseaux/ytb-rbg.png" alt="Youtube">
+                    <a href="#"><p>Youtube</p></a>
+                </div>
+                <div class="bloc-reseaux">
+                    <img src="images/logo_reseaux/tiktok-rbg.png" alt="Tiktok">
+                    <a href="#"><p>Tiktok</p></a>
+                </div>
+            </div>
+            <div class="bloc-reseaux">
+                <img src="images/logo_reseaux/spotify-rbg.png" alt="Spotify">
+                <a href="#"><p>Spotify</p></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
