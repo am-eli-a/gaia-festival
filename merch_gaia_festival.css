@@ -1,5 +1,5 @@
 :root {
-    --bg-green: #e2f4e0;
+    --bg-green: #B8F5AD;
     --card-green: #76d370;
     --sidebar-gray: #e0e0e0;
 }
@@ -21,7 +21,7 @@ body {
     background: white;
     padding: 20px;
     margin-bottom: 30px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
 }
 
 .sidebar {
+    border-radius: 7px;
     background-color: var(--sidebar-gray);
     padding: 20px;
     width: 220px;
@@ -66,6 +67,7 @@ body {
 }
 
 .image-container {
+    border-radius: 8px;
     background-color: var(--card-green);
     position: relative;
     height: 250px;
@@ -125,7 +127,7 @@ body {
     align-items: center;
     background-color: white;
     padding: 15px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
     gap: 10px;
 }
 
@@ -147,8 +149,7 @@ body {
 }
 
 .add-to-cart:hover {
-    background-color: var(--card-green);
-    border-color: var(--card-green);
+    scale: 1.2;
 }
 
 .add-to-cart img {
